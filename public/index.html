@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Librería Backend</h1>
+    </header>
+    <main>
+        <div class="coleccion">
+            <h2><a href="/api/libros" class="enlace-sin-estilo">Libros</a></h2>
+            <div class="metodo get">
+                <span class="metodo-verbo http-get">GET</span>
+                <span class="metodo-ruta">/api/libros</span>
+                <span class="metodo-descripcion">Obtener todos los libros.</span>
+            </div>
+            <div class="metodo post">
+                <span class="metodo-verbo http-post">POST</span>
+                <span class="metodo-ruta">/api/libros</span>
+                <span class="metodo-descripcion">Añadir un libro.</span>
+            </div>
+            <div class="metodo get">
+                <span class="metodo-verbo http-get">GET</span>
+                <span class="metodo-ruta">/api/libros/{id}</span>
+                <span class="metodo-descripcion">Obtener un libro.</span>
+            </div>
+            <div class="metodo put">
+                <span class="metodo-verbo http-put">PUT</span>
+                <span class="metodo-ruta">/api/libros/{id}</span>
+                <span class="metodo-descripcion">Modificar un libro.</span>
+            </div>
+            <div class="metodo delete">
+                <span class="metodo-verbo http-delete">DELETE</span>
+                <span class="metodo-ruta">/api/libros/{id}</span>
+                <span class="metodo-descripcion">Eliminar un libro.</span>
+            </div>
+        </div>
+        <div>
+            <h2><a href="/api/autores" class="enlace-sin-estilo">Autores</a></h2>
+            <div class="metodo get">
+                <span class="metodo-verbo http-get">GET</span>
+                <span class="metodo-ruta">/api/autores</span>
+                <span class="metodo-descripcion">Obtener todos los autores.</span>
+            </div>
+            <div class="metodo post">
+                <span class="metodo-verbo http-post">POST</span>
+                <span class="metodo-ruta">/api/autores</span>
+                <span class="metodo-descripcion">Añadir un autor.</span>
+            </div>
+            <div class="metodo get">
+                <span class="metodo-verbo http-get">GET</span>
+                <span class="metodo-ruta">/api/autores/{id}</span>
+                <span class="metodo-descripcion">Obtener un autor.</span>
+            </div>
+            <div class="metodo put">
+                <span class="metodo-verbo http-put">PUT</span>
+                <span class="metodo-ruta">/api/autores/{id}</span>
+                <span class="metodo-descripcion">Modificar un autor.</span>
+            </div>
+            <div class="metodo delete">
+                <span class="metodo-verbo http-delete">DELETE</span>
+                <span class="metodo-ruta">/api/autores/{id}</span>
+                <span class="metodo-descripcion">Eliminar un autor.</span>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

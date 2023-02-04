@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0px;
+}
+
+main {
+    margin: 0px 15%;
+}
+
+h2 {
+    margin-bottom: 7px;
+}
+
+.coleccion {
+    margin: 20px 0px;
+}
+
+.metodo {
+    margin-bottom: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.metodo-verbo {
+    display: inline-block;
+    padding: 3px 10px;
+    color: white;
+    width: 100px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.metodo-ruta {
+    display: inline-block;
+    padding: 3px 20px;
+    font-size: 1.2em;
+    font-family: monospace;
+}
+
+.get {
+    border-color: #61affe;
+    background: rgba(97, 175, 254, .1);
+}
+
+.post {
+    border-color: #49cc90;
+    background: rgba(73, 204, 144, .1);
+}
+
+.delete {
+    border-color: #f93e3e;
+    background: rgba(249, 62, 62, .1);
+}
+
+.put {
+    border-color: #fca130;
+    background: rgba(252, 161, 48, .1);
+}
+
+.http-get {
+    background: #61affe;
+}
+
+.http-post {
+    background: #49cc90;
+}
+
+.http-delete {
+    background: #f93e3e;
+}
+
+.http-put {
+    background: #fca130;
+}
+
+.enlace-sin-estilo {
+    text-decoration: none;
+    color: black;
+}
